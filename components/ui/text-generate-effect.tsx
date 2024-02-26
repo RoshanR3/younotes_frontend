@@ -7,7 +7,7 @@ export const TextGenerateEffect = ({
   words,
   className,
 }: {
-  words: "hellow world";
+  words: string;
   className?: string;
 }) => {
   const [scope, animate] = useAnimate();
