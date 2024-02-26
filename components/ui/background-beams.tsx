@@ -14,7 +14,7 @@ export function BackgroundBeamsDemo() {
   const [loading,setLoading]=useState(false);
   const [url, setUrl] = useState('');
   const { setData } = useStore();
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e:any) => {
     console.log(url);
     e.preventDefault();
     setLoading(true);
@@ -48,9 +48,9 @@ export function BackgroundBeamsDemo() {
             <p></p>
             <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
               Struggling to keep up with the flood of information in your study
-              videos? We've all been there. Juggling note-taking while actively
-              listening can be overwhelming, leading to missed key points and
-              wasted effort.
+              videos? We&lsquo;ve all been there. Juggling note-taking while
+              actively listening can be overwhelming, leading to missed key
+              points and wasted effort.
             </p>
             <form
               onSubmit={handleSubmit}
