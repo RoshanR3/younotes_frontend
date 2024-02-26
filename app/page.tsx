@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { BackgroundBeams, BackgroundBeamsDemo } from "./components/ui/background-beams";
+import { BackgroundBeams, BackgroundBeamsDemo } from "@/components/ui/background-beams";
 
 export default function Home() {
   return (
